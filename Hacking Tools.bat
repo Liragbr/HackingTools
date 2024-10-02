@@ -23,8 +23,8 @@ set /p input=.%BS% [38;2;144;238;144m         ╚══════^>[0m
 
 if /I %input% EQU 1 start ph2.lnk
 if /I %input% EQU 2 start Wireshark.lnk
-if /I %input% EQU 4 start putty.exe
-if /I %input% EQU 5 start metaploit.exe
+if /I %input% EQU 3 start putty.exe
+if /I %input% EQU 4 start metaploit.exe
 cls
 goto start
 
